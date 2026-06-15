@@ -1,0 +1,16 @@
+.genre ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.genre li {
+    float: center;
+}
+
+.genre li a {
+    display: block;
+    padding: 8px;
+    background-color: #ffff;
+}
