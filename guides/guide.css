@@ -1,0 +1,64 @@
+.guides {
+  background-color: #8B008B;
+  padding: 0;
+  margin: 0;
+}
+.guides ul{
+  list-style: none;
+  text-align: center;
+
+}
+.guides li{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+.guides a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+.guides a:hover {
+  background-color: #A9A9A9;
+  color:#fff;
+  text-decoration:underline;
+}
+
+.guides a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+.genre ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.genre li {
+  float: center;}
+
+  .genre li a {
+    display: block;
+    padding: 8px;
+    background-color: #ffff;
+  }
+
+  @media screen and (min-width: 900px) {
+    .guides li {
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+      display: inline-block;
+      margin-right: -4px;
+    }
+
+  }
