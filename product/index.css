@@ -1,0 +1,32 @@
+.list ul{
+list-style: none;
+  background-color: #00CED1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.list li{
+font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+.list a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.list a:hover {
+  background-color: #A9A9A9;
+	color:#fff;
+    text-decoration:underline;
+}
+ 
+.list a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
